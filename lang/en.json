@@ -1,0 +1,41 @@
+{
+  "DLSTEALTH": {
+    "Settings": {
+      "Attribute": {
+        "Name": "Noticeability attribute",
+        "Hint": "The character attribute that sets the recognition radius (as named on the sheet, case-insensitive). A data path such as system.stealth.value works too. Tokens without it are never disguised."
+      },
+      "CellsPerPoint": {
+        "Name": "Grid cells per point",
+        "Hint": "The real token is visible within Noticeability × this many grid cells. At 1, a character with Noticeability 3 is recognised from 3 cells away."
+      },
+      "MemorySeconds": {
+        "Name": "Seconds a recognised character is remembered",
+        "Hint": "How many seconds a character keeps recognising someone it saw within the radius after moving away or losing sight of them. In combat, someone recognised stays recognised until the fight ends."
+      },
+      "FadeDuration": {
+        "Name": "Transition length (ms)",
+        "Hint": "How many milliseconds the real token takes to fade into its disguise and back. 0 swaps at once."
+      },
+      "DefaultImage": {
+        "Name": "Default disguise image",
+        "Hint": "What is seen in place of a token from afar, when the token has no disguise image of its own."
+      },
+      "DefaultName": {
+        "Name": "Default disguise name",
+        "Hint": "The nameplate of a disguised token that has no disguise name of its own. Empty hides the nameplate."
+      },
+      "GMPreview": {
+        "Name": "GM sees through selected tokens",
+        "Hint": "Normally the GM always sees the real tokens. Turn this on to see the disguises the way the selected tokens see them."
+      }
+    },
+    "Config": {
+      "Legend": "Disguise",
+      "Image": "Disguise image",
+      "ImageHint": "What is seen from outside the recognition radius. Empty uses the module's default image.",
+      "Name": "Disguise name",
+      "NameHint": "The nameplate while the token is disguised. Empty uses the module's default name."
+    }
+  }
+}

@@ -17,5 +17,20 @@
   "flags": {
     "canUpload": true
   },
-  "description": ""
+  "description": "Маскировка: издалека токен выглядит как изображение-маскировка, настоящий виден только в радиусе, зависящем от атрибута «Заметность».",
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
 }
