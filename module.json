@@ -1,0 +1,21 @@
+{
+  "id": "dlstealth",
+  "title": "DL_stealth",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Miirflin",
+      "email": "mrmiirflinn@gmail.com",
+      "discord": "miirflin",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "description": ""
+}
